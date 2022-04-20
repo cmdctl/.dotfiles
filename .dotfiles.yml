@@ -1,0 +1,6 @@
+version: "1.0"
+
+include:
+  - .vimrc
+  - .zshrc
+  - .dotfiles.yml
