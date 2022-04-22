@@ -113,3 +113,4 @@ alias gg="git add -A && git commit -m"
 alias push="git push origin HEAD"
 alias pull="git pull origin HEAD"
 
+alias dcu="docker-compose up -d"
