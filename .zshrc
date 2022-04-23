@@ -114,3 +114,4 @@ alias push="git push origin HEAD"
 alias pull="git pull origin HEAD"
 
 alias dcu="docker-compose up -d"
+alias dra="docker rm $(docker ps -a -q)"
