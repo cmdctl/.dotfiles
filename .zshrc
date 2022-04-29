@@ -117,3 +117,5 @@ alias status="git status"
 
 alias dcu="docker-compose up -d"
 alias dra="docker rm $(docker ps -a -q) --force"
+
+[ -f "/Users/antonbozhinov/.ghcup/env" ] && source "/Users/antonbozhinov/.ghcup/env" # ghcup-env
