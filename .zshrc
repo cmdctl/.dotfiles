@@ -35,9 +35,7 @@ dotfiles
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
-# zstyle ':omz:update' frequency 13
-
-# Uncomment the following line if pasting URLs and other text is messed up.
+# zstyle ':omz:update' frequency 13 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
@@ -117,6 +115,6 @@ alias pull-main="git pull origin main"
 alias status="git status"
 
 alias dcu="docker-compose up -d"
-alias dra="docker rm $(docker ps -a -q) --force"
+alias dra="docker rm ${docker ps -a -q} -f"
 
 [ -f "/Users/antonbozhinov/.ghcup/env" ] && source "/Users/antonbozhinov/.ghcup/env" # ghcup-env
