@@ -115,6 +115,6 @@ alias pull-main="git pull origin main"
 alias status="git status"
 
 alias dcu="docker-compose up -d"
-alias dra="docker rm ${docker ps -a -q} -f"
+alias dra="docker rm $(docker ps -a -q) -f"
 
 [ -f "/Users/antonbozhinov/.ghcup/env" ] && source "/Users/antonbozhinov/.ghcup/env" # ghcup-env
