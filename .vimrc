@@ -213,5 +213,3 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 nnoremap K ;
 nnoremap J ,
 
-nnoremap "0p p
-nnoremap "0P P
