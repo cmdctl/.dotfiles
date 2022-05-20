@@ -119,9 +119,22 @@ alias status="git status"
 alias dcu="docker-compose up -d"
 alias dra='docker rm $(docker ps -a -q) -f'
 
-# Eval conda for the current shell
-eval "$(/Users/antonbozhinov/miniconda3/bin/conda shell.zsh hook)"
-
 [ -f "/Users/antonbozhinov/.ghcup/env" ] && source "/Users/antonbozhinov/.ghcup/env" # ghcup-env
 
 [ -s "/Users/antonbozhinov/.jabba/jabba.sh" ] && source "/Users/antonbozhinov/.jabba/jabba.sh"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/antonbozhinov/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/antonbozhinov/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/antonbozhinov/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/antonbozhinov/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
