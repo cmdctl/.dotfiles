@@ -5,6 +5,7 @@
 export ZSH=$HOME/.oh-my-zsh
 export PATH=${PATH}:`go env GOPATH`/bin
 export PATH=${PATH}:/Users/antonbozhinov/.local/bin
+export PATH=${PATH}:/Users/antonbozhinov/.npm-global
 export JAVA_HOME=/Users/antonbozhinov/.jabba/jdk/adopt@1.11.0-11/Contents/Home
 
 # Set name of the theme to load --- if set to "random", it will
