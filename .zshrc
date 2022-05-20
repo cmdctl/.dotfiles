@@ -119,6 +119,9 @@ alias status="git status"
 alias dcu="docker-compose up -d"
 alias dra='docker rm $(docker ps -a -q) -f'
 
+# Eval conda for the current shell
+eval "$(/Users/antonbozhinov/miniconda3/bin/conda shell.zsh hook)"
+
 [ -f "/Users/antonbozhinov/.ghcup/env" ] && source "/Users/antonbozhinov/.ghcup/env" # ghcup-env
 
 [ -s "/Users/antonbozhinov/.jabba/jabba.sh" ] && source "/Users/antonbozhinov/.jabba/jabba.sh"
