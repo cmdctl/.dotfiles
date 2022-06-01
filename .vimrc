@@ -47,6 +47,9 @@ call plug#end()
 " unicode characters in the file autoload/float.vim
 set encoding=utf-8
 
+" Keep lines below and above the cursor
+set scrolloff=3
+
 " TextEdit might fail if hidden is not set.
 set hidden
 
@@ -63,6 +66,7 @@ set updatetime=300
 
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
+set relativenumber
 
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.
