@@ -7,7 +7,7 @@ export PATH=${PATH}:`go env GOPATH`/bin
 export PATH=${PATH}:/Users/antonbozhinov/.local/bin
 export PATH=${PATH}:/Users/antonbozhinov/.npm-global
 export JAVA_HOME=/Users/antonbozhinov/.jabba/jdk/adopt@1.11.0-11/Contents/Home
-export GOOGLE_APPLICATION_CREDENTIALS=~/dev/github.com/ovotech/field-force-tech-nonprod-creds.json
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/antonbozhinov/.config/gcloud/application_default_credentials.json
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
