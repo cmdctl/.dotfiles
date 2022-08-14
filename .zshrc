@@ -5,6 +5,7 @@
 export ZSH=$HOME/.oh-my-zsh
 export NODE_PATH="$(npm root -g)"
 export PATH=${PATH}:$NODE_PATH
+export PATH=${PATH}:"$(npm config get prefix)"
 export PATH=${PATH}:`go env GOPATH`/bin
 export PATH=${PATH}:/Users/antonbozhinov/.local/bin
 export PATH=${PATH}:/Users/antonbozhinov/.npm-global
