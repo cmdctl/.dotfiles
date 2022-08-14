@@ -9,7 +9,7 @@ export PATH=${PATH}:/Users/antonbozhinov/.npm-global
 export JAVA_HOME=/Users/antonbozhinov/.jabba/jdk/adopt@1.11.0-11/Contents/Home
 export GOOGLE_APPLICATION_CREDENTIALS=/Users/antonbozhinov/.config/gcloud/application_default_credentials.json
 
-export NODE_PATH="'$(npm root -g)'"
+export NODE_PATH="$(npm root -g)"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
