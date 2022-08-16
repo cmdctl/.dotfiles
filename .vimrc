@@ -216,4 +216,6 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 nnoremap L ;
 nnoremap H ,
+nnoremap K ;
+nnoremap J ,
 
