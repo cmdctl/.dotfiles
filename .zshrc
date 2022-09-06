@@ -7,8 +7,6 @@ export PATH=~/.npm-global/bin:$PATH
 export PATH=${PATH}:`go env GOPATH`/bin
 export PATH=${PATH}:/Users/antonbozhinov/.local/bin
 export PATH=${PATH}:/Users/antonbozhinov/.npm-global
-export JAVA_HOME=/Users/antonbozhinov/.jabba/jdk/adopt@1.11.0-11/Contents/Home
-export GOOGLE_APPLICATION_CREDENTIALS=/Users/antonbozhinov/.config/gcloud/application_default_credentials.json
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -108,6 +106,7 @@ alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias adapter="cd ~/dev/github.com/ovotech/ft-fusion-adapter"
 alias ovo="cd ~/dev/github.com/ovotech"
+alias ct="cd ~/dev/github.com/cleartreasury"
 alias dev="cd ~/dev"
 alias repos="cd ~/dev/github.com/cmdctl"
 alias golang="cd ~/dev/github.com/cmdctl/golang"
@@ -125,32 +124,7 @@ alias status="git status"
 alias dcu="docker-compose up -d"
 alias dra='docker rm $(docker ps -a -q) -f'
 
-[ -f "/Users/antonbozhinov/.ghcup/env" ] && source "/Users/antonbozhinov/.ghcup/env" # ghcup-env
-
-[ -s "/Users/antonbozhinov/.jabba/jabba.sh" ] && source "/Users/antonbozhinov/.jabba/jabba.sh"
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/antonbozhinov/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/antonbozhinov/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/antonbozhinov/opt/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/antonbozhinov/opt/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
 
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/antonbozhinov/gcloud/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/antonbozhinov/gcloud/google-cloud-sdk/path.zsh.inc'; fi
 
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/antonbozhinov/gcloud/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/antonbozhinov/gcloud/google-cloud-sdk/completion.zsh.inc'; fi
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
