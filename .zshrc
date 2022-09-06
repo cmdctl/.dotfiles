@@ -125,6 +125,9 @@ alias status="git status"
 alias dcu="docker-compose up -d"
 alias dra='docker rm $(docker ps -a -q) -f'
 
+# Intelij products
+alias webstorm='open -na "WebStorm.app" --args "$@"'
+
 
 
 
