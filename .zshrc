@@ -128,7 +128,7 @@ alias dra='docker rm $(docker ps -a -q) -f'
 # intelij products
 alias webstorm='open -na "WebStorm.app" --args "$@"'
 alias goland='open -na "GoLand.app" --args "$@"'
-alias goland='open -na "Pycharm.app" --args "$@"'
+alias pycharm='open -na "Pycharm.app" --args "$@"'
 
 
 
