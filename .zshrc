@@ -130,7 +130,9 @@ alias webstorm='open -na "WebStorm.app" --args "$@"'
 alias goland='open -na "GoLand.app" --args "$@"'
 alias pycharm='open -na "Pycharm.app" --args "$@"'
 
-
+funciton search() {
+	grep $1 -R .
+}
 
 
 
