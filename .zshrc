@@ -131,7 +131,7 @@ alias goland='open -na "GoLand.app" --args "$@"'
 alias pycharm='open -na "Pycharm.app" --args "$@"'
 
 funciton search() {
-	grep $1 -R .
+	grep $1 -R --exclude-dir=node_modules .
 }
 
 
