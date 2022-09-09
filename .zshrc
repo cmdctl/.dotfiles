@@ -7,7 +7,7 @@ export PATH=~/.npm-global/bin:$PATH
 export PATH=${PATH}:`go env GOPATH`/bin
 export PATH=${PATH}:/Users/antonbozhinov/.local/bin
 export PATH=${PATH}:/Users/antonbozhinov/.npm-global
-export PATH=${PATH}:$(npm config get prefix)/bin
+export PATH=${PATH}:$(npm root -g)
 export PATH=${PATH}:/opt/homebrew/bin
 
 # Set name of the theme to load --- if set to "random", it will
