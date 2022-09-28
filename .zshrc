@@ -136,34 +136,13 @@ export funciton search() {
 	grep $1 -R --exclude-dir=node_modules .
 }
 
-# Custom configuration for Clear Treasury
-# export AWS_ACCESS_KEY_ID="****"
-# export AWS_SECRET_ACCESS_KEY="****"
-# export AWS_SESSION_TOKEN="****"
-
-# export CYPRESS_AWS_ACCESS_KEY_ID="****"
-# export CYPRESS_AWS_SECRET_ACCESS_KEY="****"
-# export CYPRESS_AWS_SESSION_TOKEN="****"
-
-
-export CYPRESS_AWS_LAMBDA_DATA_API_TEST="arn:aws:lambda:eu-west-2:129472725751:function:main-data-api-Test" 
-export CYPRESS_API_TEST_CLEAR_TREASURY="https://api-test.dev.nonprod.cleartreasury.co.uk/api" 
-
-export CYPRESS_COGNITO_IDENTITY_POOL_ID="eu-west-2:ce90958a-de80-4158-8a52-5b55bb3239d7"
-export CYPRESS_COGNITO_USER_POOL_ID="eu-west-2_nCQyScHAK"
-export CYPRESS_COGNITO_USER_POOL_WEB_CLIENT_ID="3p40ujsl5t6ttqqkhcv6flhugv"
-
-export CYPRESS_CI=true
-  
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 ZSH_THEME="powerlevel9k/powerlevel9k"#
 
-
-
+export AWS_REGION='eu-west-1'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
