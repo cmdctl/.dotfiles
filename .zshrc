@@ -127,6 +127,7 @@ alias status="git status"
 
 alias dcu="docker-compose up -d"
 alias dra='docker rm $(docker ps -a -q) -f'
+alias k=kubectl
 
 # intelij products
 alias webstorm='open -na "WebStorm.app" --args "$@"'
