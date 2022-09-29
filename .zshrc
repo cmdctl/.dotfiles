@@ -116,6 +116,7 @@ alias python-dir="cd ~/dev/github.com/cmdctl/python"
 alias haskell="cd ~/dev/github.com/cmdctl/haskell"
 alias nodejs="cd ~/dev/github.com/cmdctl/nodejs"
 alias typescript="cd ~/dev/github.com/cmdctl/typescript"
+alias k8s="cd ~/dev/github.com/cmdctl/k8s"
 
 alias gg="git add -A && git commit -m"
 alias push="git push origin HEAD"
