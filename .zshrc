@@ -21,7 +21,7 @@ ZSH_THEME="robbyrussell"
 dotfiles
 #==================================
 
-export source ./.zshrc.env
+export  ./.zshrc.env
 
 
 # Set list of themes to pick from when loading at random
