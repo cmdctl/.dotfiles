@@ -20,8 +20,9 @@ ZSH_THEME="robbyrussell"
 # Starting scripts
 dotfiles
 #==================================
-
-export  ./.zshrc.env
+set -a
+. ./.zshrc.env
+set +a
 
 
 # Set list of themes to pick from when loading at random
