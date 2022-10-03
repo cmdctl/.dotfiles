@@ -38,3 +38,13 @@ nnoremap H ,
 nnoremap K ;
 nnoremap J ,
 
+nmap f :call FindChar()<CR>
+function FindChar()
+  let c = nr2char(getchar())
+  while col('.') < col('$') - 1
+    normal l
+    if getline('.')[col('.') - 1] ==? c
+      break
+    endif
+  endwhile
+endfunction
