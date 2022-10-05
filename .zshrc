@@ -21,7 +21,7 @@ ZSH_THEME="robbyrussell"
 dotfiles
 #==================================
 set -a
-. ./.zshrc.env
+. ~/.zshrc.env
 set +a
 
 
