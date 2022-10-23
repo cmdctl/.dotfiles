@@ -15,7 +15,7 @@ export PATH=~/.npm-global/bin:$PATH
 export PATH=${PATH}:`go env GOPATH`/bin
 export PATH=${PATH}:/Users/antonbozhinov/.local/bin
 export PATH=${PATH}:/Users/antonbozhinov/.npm-global
-export PATH=${PATH}:$(npm root -g)
+# export PATH=${PATH}:$(npm root -g)
 export PATH=${PATH}:/opt/homebrew/bin
 
 #==================================
