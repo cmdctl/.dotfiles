@@ -142,6 +142,8 @@ alias pull-main="git pull origin main"
 alias pull-dev="git pull origin dev"
 alias status="git status"
 
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+
 alias dcu="docker-compose up -d"
 alias dra='docker rm $(docker ps -a -q) -f'
 alias k=kubectl
@@ -168,3 +170,10 @@ source "$HOME/.cargo/env"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Pyenv related stuff
+export PYENV_ROOT="$HOME/.pyenv"
+
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+
+eval "$(pyenv init -)"
