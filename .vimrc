@@ -2,6 +2,7 @@ syntax on
 set belloff=all
 set noerrorbells
 set encoding=utf-8
+set re=0
 
 " Keep lines below and above the cursor
 set scrolloff=3
