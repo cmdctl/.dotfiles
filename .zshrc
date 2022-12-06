@@ -121,6 +121,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 ## Example aliases
 alias zshrc="vim ~/.zshrc"
+alias zshrc.env="vim ~/.zshrc.env"
 alias vimrc="vim ~/.vimrc"
 alias adapter="cd ~/dev/github.com/ovotech/ft-fusion-adapter"
 alias ovo="cd ~/dev/github.com/ovotech"
