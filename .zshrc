@@ -136,7 +136,7 @@ alias typescript="cd ~/dev/github.com/cmdctl/typescript"
 alias rust="cd ~/dev/github.com/cmdctl/rust"
 alias cmdctl="cd ~/dev/github.com/cmdctl"
 
-alias gg="git add -A && git commit -m"
+# alias gg="git add -A && git commit -m"
 alias push="git push origin HEAD"
 alias pull="git pull origin HEAD"
 alias pull-main="git pull origin main"
@@ -156,6 +156,11 @@ alias pycharm='open -na "Pycharm.app" --args "$@"'
 
 export funciton search() {
 	grep $1 -R --exclude-dir=node_modules .
+}
+
+export function gg() {
+    msg = "'$*'"
+    git add -A && git commit -m "$msg"
 }
 
 export NVM_DIR="$HOME/.nvm"
