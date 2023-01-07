@@ -17,6 +17,7 @@ export PATH=${PATH}:/Users/antonbozhinov/.local/bin
 export PATH=${PATH}:/Users/antonbozhinov/.npm-global
 # export PATH=${PATH}:$(npm root -g)
 export PATH=${PATH}:/opt/homebrew/bin
+export PATH=$PATH:~/.bin
 
 #==================================
 # Starting scripts
