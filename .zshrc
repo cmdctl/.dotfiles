@@ -146,6 +146,7 @@ alias pull-dev="git pull origin dev"
 alias status="git status"
 
 alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+alias gname='/Users/antonbozhinov/dev/github.com/cmdctl/rust/gname/target/release/gname'
 
 alias dcu="docker-compose up -d"
 alias dra='docker rm $(docker ps -a -q) -f'
