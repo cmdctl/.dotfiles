@@ -183,3 +183,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 
 eval "$(pyenv init -)"
+
+# Wasmer
+export WASMER_DIR="/Users/antonbozhinov/.wasmer"
+[ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
