@@ -18,6 +18,7 @@ export PATH=${PATH}:/Users/antonbozhinov/.npm-global
 # export PATH=${PATH}:$(npm root -g)
 export PATH=${PATH}:/opt/homebrew/bin
 export PATH=$PATH:~/.bin
+export PATH=$PATH:~/.local/bin
 export CARGO_NET_GIT_FETCH_WITH_CLI=true
 
 #==================================
