@@ -123,7 +123,6 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 ## Example aliases
-alias cd=z
 alias cat=bat
 alias zshrc="vim ~/.zshrc"
 alias zshrc.env="vim ~/.zshrc.env"
