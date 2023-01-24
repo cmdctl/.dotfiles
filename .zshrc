@@ -23,7 +23,7 @@ export CARGO_NET_GIT_FETCH_WITH_CLI=true
 
 #==================================
 # Starting scripts
-dotfiles
+# dotfiles
 #==================================
 
 # Set name of the theme to load --- if set to "random", it will
