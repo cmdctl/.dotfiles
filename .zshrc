@@ -124,6 +124,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 ## Example aliases
 alias vim=lvim
+alias v=vim
 alias cat=bat
 alias zshrc="vim ~/.zshrc"
 alias zshrc.env="vim ~/.zshrc.env"
@@ -131,6 +132,8 @@ alias vimrc="vim ~/.vimrc"
 alias adapter="cd ~/dev/github.com/ovotech/ft-fusion-adapter"
 alias ovo="cd ~/dev/github.com/ovotech"
 alias ct="cd ~/dev/github.com/clear-treasury"
+alias ppp="cd ~/dev/github.com/clear-treasury/payments-platform-web-app"
+alias app="cd ~/dev/github.com/clear-treasury/appsync"
 alias dev="cd ~/dev"
 alias repos="cd ~/dev/github.com/cmdctl"
 alias golang="cd ~/dev/github.com/cmdctl/golang"
