@@ -126,6 +126,11 @@ source $ZSH/oh-my-zsh.sh
 alias vim=lvim
 alias v=vim
 alias cat=bat
+alias c=clear
+alias s="source ~/.zshrc"
+alias se="cat .env && source .env"
+
+
 alias zshrc="vim ~/.zshrc"
 alias zshrc.env="vim ~/.zshrc.env"
 alias vimrc="vim ~/.vimrc"
