@@ -201,3 +201,5 @@ eval "$(pyenv init -)"
 # Wasmer
 export WASMER_DIR="/Users/antonbozhinov/.wasmer"
 [ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
+
+bindkey '^I' autosuggest-accept
