@@ -21,6 +21,8 @@ export PATH=$PATH:~/.bin
 export PATH=$PATH:~/.local/bin
 export CARGO_NET_GIT_FETCH_WITH_CLI=true
 
+export AWS_PROFILE=personal
+
 #==================================
 # Starting scripts
 # dotfiles
@@ -147,6 +149,7 @@ alias haskell="cd ~/dev/github.com/cmdctl/haskell"
 alias nodejs="cd ~/dev/github.com/cmdctl/nodejs"
 alias typescript="cd ~/dev/github.com/cmdctl/typescript"
 alias rust="cd ~/dev/github.com/cmdctl/rust"
+alias lualang="cd ~/dev/github.com/cmdctl/lua/"
 alias cmdctl="cd ~/dev/github.com/cmdctl"
 
 alias gg="git add -A && git commit -m"
@@ -202,4 +205,7 @@ eval "$(pyenv init -)"
 export WASMER_DIR="/Users/antonbozhinov/.wasmer"
 [ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
 
-bindkey '^I' autosuggest-accept
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
