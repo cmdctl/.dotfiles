@@ -19,6 +19,7 @@ export PATH=${PATH}:/Users/antonbozhinov/.npm-global
 export PATH=${PATH}:/opt/homebrew/bin
 export PATH=$PATH:~/.bin
 export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.nimble/bin
 export CARGO_NET_GIT_FETCH_WITH_CLI=true
 
 export AWS_PROFILE=personal
@@ -132,6 +133,7 @@ alias c=clear
 alias s="source ~/.zshrc"
 alias se="cat .env && source .env"
 
+alias maelstrom='/Users/antonbozhinov/dev/github.com/cmdctl/java/maelstrom/maelstrom/maelstrom'
 
 alias zshrc="vim ~/.zshrc"
 alias zshrc.env="vim ~/.zshrc.env"
