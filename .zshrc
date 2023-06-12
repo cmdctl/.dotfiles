@@ -127,7 +127,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 ## Example aliases
 alias vim=lvim
-alias v=vim
+alias v="vim ."
 alias cat=bat
 alias c=clear
 alias s="source ~/.zshrc"
@@ -153,6 +153,10 @@ alias typescript="cd ~/dev/github.com/cmdctl/typescript"
 alias rust="cd ~/dev/github.com/cmdctl/rust"
 alias lualang="cd ~/dev/github.com/cmdctl/lua/"
 alias cmdctl="cd ~/dev/github.com/cmdctl"
+alias notes="cd ~/dev/github.com/cmdctl/notes/"
+alias tb="cd ~/dev/azure/tirebuyer/"
+
+
 
 alias gg="git add -A && git commit -m"
 alias push="git push origin HEAD"
